@@ -93,5 +93,5 @@ After training, you can run inference on **your own test images**:
 
 - **Code:** Licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.  
 - **Dataset:** [Kaggle — Solar Panels Dirt Detection](https://www.kaggle.com/datasets/malkamahira/solar-panels-dirt-detection) — **Unknown License**  
-  - No explicit license information provided on the dataset page at the time of download.  
-  - Please check the dataset’s Kaggle page for any updates or restrictions before public/commercial use.
+  > No explicit license information provided on the dataset page at the time of download.  
+  > Please check the dataset’s Kaggle page for any updates or restrictions before public/commercial use.
