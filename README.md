@@ -57,7 +57,7 @@ python -c "import torch; print(torch.cuda.is_available())"
 - Loads COCO-pretrained yolo11n.pt checkpoint.  
 - Trains for 100 epochs at 640×640 resolution (adjustable).  
 - Update the data.yaml path in train.py:  
-  -results = model.train(data="C:/path/to/data.yaml", epochs=100, imgsz=640)
+  - results = model.train(data="C:/path/to/data.yaml", epochs=100, imgsz=640)
 - Results are saved to:
   - weights/best.pt — best performing weights
   - weights/last.pt — last epoch weights
@@ -78,7 +78,7 @@ After training, you can run inference on **your own test images**:
 ## 🧰 Tips & Troubleshooting
 
 - Dataset Paths  
-Ensure data.yaml points to the correct images/train, images/val, labels/train, and labels/val directories.
+  - Ensure data.yaml points to the correct images/train, images/val, labels/train, and labels/val directories.
 
 - Windows Multiprocessing train.py uses:
   - from multiprocessing import freeze_support
