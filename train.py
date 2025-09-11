@@ -35,9 +35,10 @@ for filename in os.listdir(image_folder):
 def main():
     model = YOLO("yolo11n.pt")
     # data.yaml dosyasının bilgisayarınızdaki tam yolunu buraya yazın
-    results = model.train(data="C:/Users/hp/Desktop/AI/Solar Panel Project/data/data.yaml", epochs=100, imgsz=640)
+    results = model.train(data="Change the path according to your setup for data.yaml", epochs=100, imgsz=640)
 
 if __name__ == "__main__":
     from multiprocessing import freeze_support
     freeze_support()
+
     main() 
